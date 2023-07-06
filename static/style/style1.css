@@ -1,0 +1,21 @@
+:root{
+    --main-bg:linear-gradient(90deg, rgba(2,0,36,0.8604691876750701) 0%, rgba(9,9,121,1) 19%, rgba(0,212,255,1) 100%);
+  }
+
+  .main-bg {
+    background: var(--main-bg) !important;
+  }
+
+  input:focus, button:focus {
+    border: 1px solid var(--main-bg) !important;
+    box-shadow: none !important;
+  }
+
+  .form-check-input:checked {
+    background-color: var(--main-bg) !important;
+    border-color: var(--main-bg) !important;
+  }
+
+  .card, .btn, input{
+    border-radius:0 !important;
+  }
